@@ -1,0 +1,257 @@
+.container{
+    height:auto;
+    width: auto;
+    margin: 0px 420px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(52, 51, 71);
+    align-items: center;
+    padding: 80px 60px 0 60px ;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: space-around;
+}
+
+.head-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.icon-container{
+    color: rgb(52, 51, 71);
+    background-color: rgb(148, 124, 255);
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgb(52, 51, 71) inset;
+    padding: 22px 20px;
+    margin-right: 15px;
+}
+
+.icon-1{
+    font-size: 38px;
+    margin-right: -10px;
+}
+
+.icon-2{
+    font-size: 44px;
+}
+
+.title{
+    color: rgb(221,99,99);
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.sub-title{
+    color:white;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.first-container{
+    height: auto;
+    width: auto;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.f-left-section{
+    padding-top: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    background-color: orange;
+    text-align: center;
+    color: white;
+}
+
+.f-right-section{
+    padding: 0px 20px;
+    width: 50%;
+    background-color: rgb(148, 124, 255);
+    text-align: center;
+    color: white;
+}
+
+.fls-icon{
+    font-size: 40px;
+    color: rgb(52, 51, 71);
+    margin-bottom: -16px;
+}
+
+img{
+    height: 33px;
+    width: 33px;
+}
+
+.second-container{
+    height: auto;
+    width: auto;
+    margin-bottom: 40px;
+    background-color: rgb(214, 93, 93);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 12px 24px 10px 26px;
+}
+
+.sc-top{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sct-icon{
+    width: 50%; 
+    color: rgb(52, 51, 71);
+    padding: 22px 24px 10px 26px;
+}
+
+.scb-content{
+    height: auto;
+    width: auto;
+    margin-top: -22px;
+}
+
+.third-container{
+    height: auto;
+    width: auto;
+    margin-bottom: 40px;
+    background-color: rgb(148, 124, 255);
+    color: white;
+    display: flex;
+    padding: 22px 22px;
+}
+
+.tc-left{
+    height: auto;
+    width: 50%;
+    margin-top: -10px;
+}
+
+.tc-right{
+    height: auto;
+    width: 50%;
+    padding-left: 22px;
+    padding-top: 30px;
+}
+
+.fourth-container{
+    height: auto;
+    width: auto;
+    margin-bottom: 40px;
+    color:white;
+    display: flex;
+}
+
+.fc-left{
+    width:50%;
+    height: auto;
+    background-color: rgb(214, 93, 93);
+    padding: 20px;
+}
+
+.fc-right{
+    width:50%;
+    height: auto;   
+    background-color: orange;
+    padding: 20px;
+}
+
+.fifth-container{
+    height: auto;
+    width: auto;
+    margin-bottom: 40px;
+    display: flex;
+    background-color: rgb(148, 124, 255);
+}
+
+.ffc-left{
+    width: 72%;
+    height:auto;
+    color:white;
+    padding: 24px 28px;
+}
+
+.ffc-right{
+    width: 28%;
+    height: auto;
+    padding: 10px;
+}
+
+.sixth-container{
+    height: auto;
+    width: auto;
+    margin-bottom: 40px;
+    display: flex;
+    background-color: orange;
+}
+
+.sic-left{
+    padding: 20px 0px 20px 26px;
+    width: 70%;
+    height: auto;
+    color:white;
+}
+
+.sic-right{
+    width: 30%;
+    height: auto;
+    padding: 0px;
+}
+
+.seventh-container{
+    height: auto;
+    width: auto;
+    color: white;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.sn-left{
+    height: auto;
+    width: 50%;
+    background-color: rgb(148, 124, 255);
+    padding: 12px 30px;
+}
+
+.sn-right{
+    height: auto;
+    width: 50%;
+    background-color: rgb(214, 93, 93);
+    padding: 20px 22px;
+}
+
+@media only screen and (max-width:1366px){
+    .container{
+        margin: 0px 320px;
+    }
+}
+
+@media only screen and (max-width:1280px){
+    .container{
+        margin: 0px 240px;
+    }
+}
+
+@media only screen and (max-width:1152px){
+    .container{
+        margin: 0px 140px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .container{
+        margin: 0px 60px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .container{
+        margin: 0px;
+    }
+}
